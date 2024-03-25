@@ -90,7 +90,7 @@ public class CalculadoraSimples {
     // SO DA PARA REALIZAR AS CONTAS DO MESMO TIPO ESCOLHIDO
 
     //SOMA
-    static void sum(double x) {
+    static void sum(Double x) {
         //Variavel local para ajudar no resultado final
         result += x;
         System.out.println("Resultado: " + result);
@@ -98,20 +98,20 @@ public class CalculadoraSimples {
     }
 
     //SUBTRACAO
-    static void minus(double x) {
+    static void minus(Double x) {
         result -= x;
         System.out.println("Resultado: " + result);
 
     }
 
     //MULTIPLICACAO
-    static void multiplication(double x) {
+    static void multiplication(Double x) {
         result *= x;
         System.out.println("Resultado: " + result);
     }
 
     //DIVISAO
-    static void division(double x) {
+    static void division(Double x) {
         if (x != 0) {
             result /= x;
             System.out.println("Resultado: " + result);
