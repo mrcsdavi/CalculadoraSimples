@@ -88,7 +88,7 @@ public class CalculadoraSimples {
 
     // FUNCOES QUE SERVEM PARA O FUNCIONAMENTO DA CALCULADORA
     // SO DA PARA REALIZAR AS CONTAS DO MESMO TIPO ESCOLHIDO
-    //A variavel result sera incrementada com os resultados recebidos abaixo
+    //A variavel estatica result sera incrementada com os resultados recebidos abaixo
 
     //SOMA
     static void sum(Double x) {
