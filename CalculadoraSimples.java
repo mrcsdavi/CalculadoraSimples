@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class CalculadoraSimples {
     //Definindo a classe scanner e o objeto scan
 
-    //Colocando static atras do objeto faz com que o programa inteiro consiga o ler
+    //Colocando static atras do objeto faz com que o programa inteiro consiga ver
     static Scanner scan = new Scanner(System.in);
     static String choice;
     static double result;
@@ -88,10 +88,11 @@ public class CalculadoraSimples {
 
     // FUNCOES QUE SERVEM PARA O FUNCIONAMENTO DA CALCULADORA
     // SO DA PARA REALIZAR AS CONTAS DO MESMO TIPO ESCOLHIDO
+    //A variavel result sera incrementada com os resultados recebidos abaixo
 
     //SOMA
     static void sum(Double x) {
-        //Variavel local para ajudar no resultado final
+      
         result += x;
         System.out.println("Resultado: " + result);
 
